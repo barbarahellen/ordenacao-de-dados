@@ -41,7 +41,7 @@ void intercala(int *vetor, int esq, int meio, int dir){
   }
   while(j < vetor2){
     vetor[k] = direita[j];
-    i++;
+    j++;
     k++;
   } 
 }
@@ -60,9 +60,9 @@ void merge_sort(int *vetor, int inicio, int fim){
   }  
 }
 
-void print(int *V, int tamanho){
+void print(int *vetor, int tamanho){
   for(int i = 0; i < tamanho; i++){
-    printf("%d ", V[i]);
+    printf("%d ", vetor[i]);
   }
   printf("\n");
 }
@@ -78,7 +78,7 @@ int main(void) {
 
   merge_sort(vetor, 0, tamanho_vetor - 1);
   
-  printf("array ordenado \n");
+  printf("\narray ordenado \n");
   print(vetor, tamanho_vetor);
     
   return 0;
