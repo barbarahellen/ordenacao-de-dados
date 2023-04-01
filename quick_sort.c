@@ -36,7 +36,7 @@ int particiona(int vetor[], int inicio, int fim){
 }
 
 // escolhe um pivô aleatório para evitar o pior caso do quicksort
-int particiona_random(int vetor[], int inicio, int fim){
+/*int particiona_random(int vetor[], int inicio, int fim){
 	// seleciona um número entre fim (inclusive) e inicio (inclusive)
 	int pivo_indice = (rand() % (fim - inicio + 1)) + inicio;
 	
@@ -44,7 +44,7 @@ int particiona_random(int vetor[], int inicio, int fim){
 	troca(vetor, pivo_indice, fim);
 	// chama a particiona
 	return particiona(vetor, inicio, fim);
-}
+}*/
 
 void quick_sort(int vetor[], int inicio, int fim){
 	if(inicio < fim)
@@ -59,18 +59,18 @@ void quick_sort(int vetor[], int inicio, int fim){
 }
 
 int main(){
-	// vetoror que será ordenado
+	// vetor que será ordenado
 	int vetor[] = {25,40,55,20,44,35,38,99,10,65,50};
 	int tam_vetor = sizeof(vetor) / sizeof(int);
 	int i;
 	
 	// inicializa random seed
-	srand(time(NULL));
+	//srand(time(NULL));
 	 
 	// chamada do quicksort
 	quick_sort(vetor, 0, tam_vetor - 1);
 
-	// mostra o vetoror ordenado
+	// mostra o vetor ordenado
 	for(i = 0; i < tam_vetor; i++)
 		printf("%d ", vetor[i]);
 	
