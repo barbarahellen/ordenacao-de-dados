@@ -1,2 +1,13 @@
 # Ordenação de dados
- Repositório para armazenar os conteúdos da disciplina de Ordenação e Recuperação de Dados
+
+## Bubble Sort
+
+## Insertion sort
+
+## Merge sort
+
+## Quick Sort
+
+## Selection sort
+
+## Heap sort
