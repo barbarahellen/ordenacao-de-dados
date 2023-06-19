@@ -9,7 +9,7 @@ Consiste em dividir a tabela a ser ordenada em duas partições, de modo que os 
 
 **Complexidade:** 
 
-| Melhor caso | O(n$log$n) |
+| Melhor caso | O(nlogn) |
 | --- | --- |
-| Médio caso | O(n$log$n) |
-| Pior caso | O(n$^2$) |
+| Médio caso | O(nlogn) |
+| Pior caso | O(n^2) |

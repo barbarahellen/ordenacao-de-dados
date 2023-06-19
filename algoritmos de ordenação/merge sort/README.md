@@ -13,7 +13,7 @@ A intercalação tem custo temporal O(n), pois meramente acessam-se as metades o
 
 **Complexidade:**
 
-| Melhor caso | O(n$log$n) |
+| Melhor caso | O(nlogn) |
 | --- | --- |
-| Médio caso | O(n$log$n) |
-| Pior caso | O(n$log$n) |
+| Médio caso | O(nlogn) |
+| Pior caso | O(nlogn) |

@@ -5,4 +5,4 @@ Consiste em fazer vários acessos sequenciais (passagens) na tabela, comparar do
 
 | Melhor caso | O(n) |
 | --- | --- |
-| Pior caso | O(n$^2$) |
+| Pior caso | O(n^2) |

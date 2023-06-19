@@ -7,7 +7,7 @@ Este algoritmo usa um índice i para marcar o inicio da parte desordenada do arr
 
 **Complexidade:** 
 
-| Melhor caso | O(n$^2$) |
+| Melhor caso | O(n^2) |
 | --- | --- |
-| Médio caso | O(n$^2$) |
-| Pior caso | O(n$^2$) |
+| Médio caso | O(n^2) |
+| Pior caso | O(n^2) |

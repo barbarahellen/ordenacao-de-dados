@@ -10,5 +10,5 @@ Cada elemento sucessivo na tabela a ser ordenada é inserido na ordem correta co
 
 | Melhor caso | O(n) |
 | --- | --- |
-| Médio caso | O(n$^2$) |
-| Pior caso | O(n$^2$) |
+| Médio caso | O(n^2) |
+| Pior caso | O(n^2) |

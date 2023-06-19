@@ -7,7 +7,7 @@
 
 **Complexidade:**
 
-| Melhor caso | O(n($log$n)$^2$) |
+| Melhor caso | O(n(logn)^2) |
 | --- | --- |
 | Médio caso | O(n^1,5) |
 | Pior caso | O(n) |
