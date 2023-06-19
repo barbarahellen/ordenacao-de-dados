@@ -4,4 +4,6 @@ Consiste em fazer vários acessos sequenciais (passagens) na tabela, comparar do
 **Complexidade:**
 
 | Melhor caso | O(n) |
+| --- | --- |
 | Pior caso | O(n^2) |
+| --- | --- |
