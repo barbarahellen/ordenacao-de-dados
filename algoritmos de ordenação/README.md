@@ -1,6 +1,5 @@
-# Ordenação de dados
+# Algoritmos de ordenação
 
-## Bubble Sort
 
 ## Insertion sort
 
